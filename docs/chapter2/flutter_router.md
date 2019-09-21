@@ -232,7 +232,6 @@ MaterialApp(
 ```dart
 MaterialApp(
   title: 'Flutter Demo',
-  initialRoute:"/", //名为"/"的路由作为应用的home(首页)
   theme: ThemeData(
     primarySwatch: Colors.blue,
   ),
@@ -241,6 +240,7 @@ MaterialApp(
    "new_page":(context)=>NewRoute(),
    "/":(context)=> MyHomePage(title: 'Flutter Demo Home Page'), //注册首页路由
   } 
+  initialRoute:"/", //名为"/"的路由作为应用的home(首页)
 );
 ```
 
